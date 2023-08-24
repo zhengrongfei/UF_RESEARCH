@@ -130,12 +130,12 @@ It also generates visualizations of classifier performance in terms of accuracy 
 
 #### Results
 ##### The test accuarcy:
-div style="text-align:center;">
+<div style="text-align:center;">
     <img src="./UF2023summer/results/classifier accuracy.png" alt="api">
 </div>
 
 ##### The log loss:
-div style="text-align:center;">
+<div style="text-align:center;">
     <img src="./UF2023summer/results/classifier log loss.png" alt="api">
 </div>
 
