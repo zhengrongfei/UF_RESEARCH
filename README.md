@@ -67,11 +67,36 @@ After seeking and analyzing the dataset,we try to use both regression model and 
 For the regression model, we selected the baseline regression model and the regression model with multiple independent variables. The baseline regression model was used to discover the relationship between the amount of the vehicles and the median property in the certain area. The regression model with multiple independent variables was used to discover the relationship between vehicles series and the median property, and the relationship between vehicles types and the median property. Among them, the vehicle series refers to Japanese, American, and other series. Vehicle types refer to pickups, SUVs, sedans, and others.
 
 #### The Baseline Regression Model
+##### The num_vehicles Model
 The total number of vehicles in the region is considered as the independent variable, and the median property in the region is considered as the dependent variable. The result is shown below:
+<div style="text-align:center;">
+    <img src="./UF2023summer/results/Linear regression for property values and num_cars.jpg" alt="api">
+</div>
+
 <div style="text-align:center;">
     <img src="./UF2023summer/results/Linear regression for property values and num_cars.png" alt="api">
 </div>
 
+#### The Regression Model with Multiple Independent Variables
+##### The series_of_vehicles Model
+The two independent dependent variables are the proportion of Japanese series and the proportion of American series, and  the dependent variable is the median property. The result is shown below:
+div style="text-align:center;">
+    <img src="./UF2023summer/results/Linear regression for property values and series_of_vehicles.jpg" alt="api">
+</div>
+
+<div style="text-align:center;">
+    <img src="./UF2023summer/results/Linear regression for property values and series_of_vehicles.png" alt="api">
+</div>
+
+##### The type_of_vehicles Model
+The independent dependent variables are the proportion of pickups,  SUVs and sedans, and the dependent variable is the median property.The result is shown below:
+div style="text-align:center;">
+    <img src="./UF2023summer/results/Linear regression for property values and car type variables.jpg" alt="api">
+</div>
+
+<div style="text-align:center;">
+    <img src="./UF2023summer/results/Linear regression for property values and car type variables.png" alt="api">
+</div>
 
 
 ## Conclusion 
