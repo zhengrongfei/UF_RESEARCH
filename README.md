@@ -61,7 +61,7 @@ Step4:output
 
 
 ## Modeling 
-
+After seeking and analyzing the dataset,we try to use univariate regression and multivariable regression to discover the relationship of the amount and type of the vehicles and the median property of the certain area.
 
 ## Conclusion 
 
