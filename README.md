@@ -141,7 +141,11 @@ It also generates visualizations of classifier performance in terms of accuracy 
 
 ## Conclusion 
 
+1.  According to the results of Regression Models, it seems that the number of vehicles does not have a corresponding linear relationship with the median property. At the same time, the relationship between the series of vehicles and the median property, and the type of vehicles and the median property is not simple linear.
+ 
+2.  Based on the results of the classifier models (highest test set accuracy of 71%), it seems to verify that there is some correspondence between these independent variables (vehicle series, vehicle types in the region) and the dependent variable (median property in the region). This verifies the feasibility of using these dependent variables to calculate regional property conditions.
 
+3.  Due to the limited time of this summer study, considering the difficulty of obtaining pre-processed data, that is, it takes a lot of time to transform the data, and the final training data is not much, which is likely to be the key factor restricting the performance of the model. In the subsequent tests, if the amount of training data is gradually increased, the relationship between the independent variable and the dependent variable will be clearer, and the accuracy of the test will be improved.
 
 
 ## Reference 
