@@ -155,6 +155,6 @@ div style="text-align:center;">
 ## Contribution
 Rongfei Zheng:data collection and anylysis
 
-Jingcheng Wang:
+Jingcheng Wang:  Model modification and training
 
-Junxi Wu:
+Junxi Wu:  Model modification and training
