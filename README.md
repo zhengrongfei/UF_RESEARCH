@@ -10,7 +10,7 @@ In this project, we try to use photos of streets to find some sociological infor
 
 ### Data Collection and Analysis: Week 3-4
 
-### Modeling: Week5
+### Model modification and training: Week4-5
 
 
 ## Methodology
@@ -60,8 +60,8 @@ Step4:output
 
 
 
-## Modeling 
-After seeking and analyzing the dataset,we try to use univariate regression and multivariable regression to discover the relationship of the amount and type of the vehicles and the median property of the certain area.
+## Model modification and training 
+After seeking and analyzing the dataset,we try to use both regression model and classifiers model to discover the relationship of the amount and type of the vehicles and the median property of the certain area.
 
 ## Conclusion 
 
