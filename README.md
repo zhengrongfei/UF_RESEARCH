@@ -98,6 +98,46 @@ div style="text-align:center;">
     <img src="./UF2023summer/results/Linear regression for property values and car type variables.png" alt="api">
 </div>
 
+### Classifier Model
+
+#### Data Loading and Preprocessing:
+
+The script loads two CSV files (data.csv and Florida_ct.csv) using pandas.
+The data from the two DataFrames are merged based on the 'FIPS' column.
+Additional columns are created based on calculations involving existing columns.
+The relevant columns for the analysis are selected and stored in the test_df DataFrame.
+A new column 'property_value_discrete' is created based on a threshold value for 'property_value_median'.
+
+#### Data Splitting
+
+The data is split into features (X) and the target variable (y). The feature set consists of selected columns, and the target variable is 'property_value_discrete'.
+
+#### Model Training and Evaluation
+
+A logistic regression model is instantiated, trained on the training data, and evaluated on both training and testing sets.
+A list of different classifier instances is created. (adding three new models: xgboost, lightgbm, catboost)
+A loop iterates through each classifier, fits it to the training data, and evaluates its performance on both training and testing sets.
+Metrics such as accuracy and log loss are calculated for each classifier.
+
+#### Visualization
+
+The model uses seaborn and matplotlib to create bar plots for visualizing the performance of each classifier.
+Two plots are generated: one showing the test accuracy of each classifier and another showing the test log loss.
+
+#### Output
+The model outputs the training and testing accuracy, as well as the training and testing log loss, for each classifier.
+It also generates visualizations of classifier performance in terms of accuracy and log loss.
+
+#### Results
+##### The test accuarcy:
+div style="text-align:center;">
+    <img src="./UF2023summer/results/classifier accuracy.png" alt="api">
+</div>
+
+##### The log loss:
+div style="text-align:center;">
+    <img src="./UF2023summer/results/classifier log loss.png" alt="api">
+</div>
 
 ## Conclusion 
 
