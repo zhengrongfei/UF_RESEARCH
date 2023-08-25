@@ -12,6 +12,7 @@ In this project, we try to use photos of streets to find some sociological infor
 
 ### Model Modification and Training: Week4-5
 
+### Conclude: Week6
 
 ## Methodology
 
