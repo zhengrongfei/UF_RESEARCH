@@ -159,7 +159,7 @@ It also generates visualizations of classifier performance in terms of accuracy 
 
 
 ## Contribution
-Rongfei Zheng:data collection and extraction of information
+Rongfei Zheng:data collection, extraction of information and modeling
 
 Jingcheng Wang:  Model modification and training
 
